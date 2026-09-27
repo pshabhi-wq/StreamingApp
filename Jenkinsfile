@@ -2,8 +2,8 @@ pipeline {
     agent any
     environment {
         // 1. Paste your AWS Keys here so Jenkins can authenticate
-        AWS_ACCESS_KEY_ID     = 'ASIAXKD22AH4KWTDJGT2'
-        AWS_SECRET_ACCESS_KEY = 'tGzocWcPqL1HqBNnyxeCPEcmMg5DBtOuM/BtIYly'
+        AWS_ACCESS_KEY_ID     = 'ASIAXKD22AH4DIYJGNER'
+        AWS_SECRET_ACCESS_KEY = 'ObrEG/k/+tAXmyHdrLTTVK4NAxAygkkXexEKJe1X'
         
         // Your account configurations
         AWS_ACCOUNT_ID = '502768730616'
