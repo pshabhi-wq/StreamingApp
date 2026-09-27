@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: streaming-config
+data:
+  AWS_REGION: {{ .Values.global.awsRegion | quote }}
+  MONGO_URI: "mongodb://mongo-0.mongo.streaming.svc.cluster.local:27017/streaming"
+  CLIENT_URLS: "http://{{ .Values.ingress.host }}"
